@@ -1,0 +1,2 @@
+com/example/jogodaforca/BuildConfig.java
+ com.example.jogodaforca.BuildConfig
