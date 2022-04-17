@@ -91,9 +91,8 @@ class JogoDaForca {
         }
     }
 
-    fun statusJogo(): String {
-        if (erros > 6) return "Você perdeu"
-        if ("_" !in palavraJogo) return "Parabéns, você ganhou!"
-        return "executando..."
+    fun statusJogo(): Boolean {
+        if ("_" !in palavraJogo) return true
+        return false
     }
 }
